@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.bg {	
+	width: 100%;  
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	/* padding: 15px 15px 5px 15px; */
+	/* background-image: linear-gradient(to bottom right, white, grey); */
+	background: white;
+	margin: 0;
+}
+
+
+.signup-container {
+	/* border: 2px solid black; */
+	min-height: 400px;
+	width: 600px;
+	padding: 20px 60px 10px 80px;
+	border: 1px solid gray;
+}
+
+.signup-form {
+	width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.signup-form-title-pic {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 15px 50px 15px;
+}
+
+.signup-form-title-pic::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(54,84,99,0.7);
+}
+
+.signup-form-title {
+    font-family: Poppins-Bold;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.label0 {
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+
+
+.input0 {
+	max-width: 270px;
+}
+
+
+
+input[type=text]:not(.browser-default) {
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+     border-bottom: 1px solid #26a69a;
+     box-shadow: 0 1px 0 0 #26a69a;
+     color: black;
+   }
+   
+#name {
+	margin-left: 80px;
+}
+
+#no {
+	margin-bottom: 35px;
+}
+
+input[type=password]:not(.browser-default) {
+	margin-bottom: 50px;
+	margin-left: 60px;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]) {
+     border-bottom: 1px solid #26a69a;
+     box-shadow: 0 1px 0 0 #26a69a;
+     
+     
+   }
+   
+   
+.loc0, .loc1, .loc2 {
+	background-color: gray;
+	color: black;
+	border: 1px solid black;
+	width: 270px;
+	margin-bottom: 30px;
+	display: inline;
+	margin-left: 95px;
+}
+
+.loc0:focus, .loc1:focus, .loc2:focus  {
+	background-color: lightblue;
+	color: black;
+	border: 1px solid black;
+}
+
+
+.loc0 option, .loc1 option, .loc2 option {
+	background-color: lightblue;
+	color: black;
+	
+}
+
+.loc0 {
+	margin-left: 60px;
+}
+
+.loc2 {
+	margin-left: 105px;
+}
+
+
+ select option:checked {
+     background: linear-gradient(#d6d6d6, #d6d6d6);
+     background-color: #d6d6d6 !important; /* for IE */
+     color: #000000 !important;
+ }
+
+select:hover {
+	color: #000000;
+	background: #c0c0c0;
+}
+
+
+
+textarea.materialize-textarea {
+    overflow-y: hidden;
+    padding: 0;
+    resize: none;
+    min-height: 20px;
+    margin-left: 65px;
+    margin-bottom:0;
+}
+
+
+textarea:not(.browser-default):focus:not([readonly]) {
+     border-bottom: 1px solid #26a69a;
+     box-shadow: 0 1px 0 0 #26a69a;
+     
+     
+}
+   
+#addmargin {
+	vertical-align: middle;
+	margin-bottom: 35px;
+}  
+   
+   
+   
+
+
+
+
+.buttons  {
+	text-decoration: none;
+	background-color: transparent;
+	vertical-align: middle;
+} 
+
+.buttons {
+	text-decoration: none;
+	margin-bottom: 25px;
+	
+} 
+
+
+
+.btn1 button {
+	font-size: 22px;
+	font-weight: bold;
+	border:4px solid #26a69a;
+	border-radius: 5px ;
+	padding: 0 50px 5px 50px;
+	background-color: transparent;
+	color: black;
+	
+}
+
+.btn1 button:hover {
+	background-color: #26a69a;
+	border:4px solid #26a69a;
+	color: black;
+}
+
+
+#vid {
+	margin-left: 50px;
+}
+
+#name {
+	margin-left: 85px;
+}
+
+#add {
+	margin-left: 70px;
+}
+
+
+#accnm {
+	margin-left: 15px;
+}
+
+#accno {
+	margin-left: 38px;
+}
+
+#ifsc {
+	margin-left: 55px;
+}
+
+#uname {
+	margin-left: 45px;
+}
+
+#city {
+	margin-left: 105px;
+}
+
+
+#banknm {
+	margin-left: 25px;
+}

@@ -1,0 +1,253 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+	.row {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.sellform {
+	
+	padding: 50px;
+	
+}
+
+
+.input-field button {
+	border: 4px solid #26a69a;
+	padding: 20px 30px;
+	font-size: 25px;
+	margin-right: 50px;
+
+	background-color: transparent;
+	font-weight: bold;
+	font-family: cursive;
+	color: #26a69a;
+}
+
+.input-field button:hover {
+	color: black;
+	background-color: #26a69a;
+}
+
+
+
+
+.input-field {
+    
+    width: 350px;
+    align-items: center;
+    padding: 0;
+    margin-left: 0;
+}
+
+.file-field .file-path-wrapper {
+    
+    padding-left: 10px;
+    width: 250px;
+    
+}
+
+input.valid[type=text]:not(.browser-default) {
+	    border-bottom: 1px solid #26a69a;
+    -webkit-box-shadow: 0 1px 0 0 #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a;
+}
+
+
+ 
+ .btn {
+	padding: 10px;
+	line-height: 0;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.file-field .btn {
+    line-height: 1.5rem;
+}
+
+
+
+.uploadimg img{
+	width: 350px;
+	height: 250px;
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+
+#form {
+	min-height: 300px;
+	background-color: #f5f5f5;
+	padding : 40px 70px;
+	border-radius: 10px;
+}
+
+.label {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.input {
+	max-width: 320px;
+}
+
+
+
+input[type=text]:not(.browser-default) {
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+     border-bottom: 1px solid #26a69a;
+     box-shadow: 0 1px 0 0 #26a69a;
+     color: black;
+   }
+
+
+textarea.materialize-textarea {
+    overflow-y: hidden;
+    padding: 0;
+    resize: none;
+    min-height: 20px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom:0;
+    width: 320px;
+}
+
+
+textarea:not(.browser-default):focus:not([readonly]) {
+     border-bottom: 1px solid #26a69a;
+     box-shadow: 0 1px 0 0 #26a69a;
+     
+     
+}
+
+.buttons  {
+	text-decoration: none;
+	background-color: transparent;
+	vertical-align: middle;
+} 
+
+.buttons {
+	text-decoration: none;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	
+} 
+
+
+
+.btn1 button {
+	font-size: 20px;
+	font-weight: bold;
+	border:4px solid #26a69a;
+	border-radius: 5px ;
+	padding: 0 50px 3px 50px;
+	background-color: transparent;
+	color: black;
+	
+}
+
+.btn1 button:hover {
+	background-color: #26a69a;
+	border:4px solid #26a69a;
+	color: black;
+}
+
+
+#addtopmargin {
+	margin-bottom: 50px;
+	vertical-align: middle;
+	
+}
+
+#rid {
+	margin-left: 40px;
+}
+
+#pid {
+	margin-left: 40px;
+}
+
+
+#pcat {
+	margin-left: 55px;
+	
+}
+
+#pnm {
+	margin-left: 53px;
+	
+}
+
+
+#price {
+	margin-left: 90px;
+	
+}
+
+ select option:checked {
+     background: linear-gradient(#d6d6d6, #d6d6d6);
+     background-color: #d6d6d6 !important; /* for IE */
+     color: #000000 !important;
+ }
+
+select:hover {
+	color: #000000;
+	background: #c0c0c0;
+}
+
+
+.loc1 {
+	background-color: gray;
+	color: black;
+	border: 1px solid black;
+	width: 320px;
+	margin-bottom: 30px;
+	display: inline;
+	margin-left: 90px;
+}
+
+.loc1:focus  {
+	background-color: lightblue;
+	color: black;
+	border: 1px solid black;
+}
+
+
+.loc1 option {
+	background-color: lightblue;
+	color: black;
+	
+}
+
+#cat {
+	margin-left: 145px;
+	margin-right: 0;
+}
+
+select.browser-default {
+    display: inline;
+}
+
+.margincat {
+	margin-left: 54px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}

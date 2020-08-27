@@ -1,0 +1,179 @@
+.container-fluid {
+		padding: 0;
+		margin: 0;}
+	
+.row {
+    
+  margin-right: 0px; 
+  margin-left: 0px; 
+}
+
+.nav-item a:hover {
+text-decoration: none;
+color: white;
+font-size : 16px;}
+
+.nav-link {
+font-size: 16px;
+
+}
+
+.navbar {
+padding: 0 50px ;
+}
+
+.nav-link {
+    display: block;
+    padding: 0;
+}
+
+
+nav i, nav i.material-icons {
+display: inline;
+font-size: 25px;
+margin: 0 5px;
+line-height: 0;
+vertical-align: -6px; }
+
+nav ul li {
+padding: 0 10px;
+font-size: 16px;
+}
+
+.dropdown-item {
+height: 45px;
+padding: 0;
+background-color: black;
+font-weight: bold;
+color: #26a69a;
+border-bottom: 1px solid gray;
+}
+
+.dropdown-menu a:hover {
+height: 45px;
+padding: 0;
+background-color: black;
+font-weight: bold;
+color: #26a69a;
+}
+
+.dropdown-menu {
+padding: 0 10px;
+margin: 0;
+left: 20px;
+padding-bottom: 20px;
+background-color: black;
+text-align: center;
+border-radius: 10px;
+}
+
+
+h2 {
+margin-left: 20px;}
+
+.count {
+padding: 20px;}
+
+.count img {
+margin-bottom: 20px;
+opacity: 0.7;}
+
+.count h5 {
+color: white;}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    text-transform: none;
+}
+
+
+.uolist a {
+color: #eeeeee;}
+
+.uolist a:hover {
+color: #eeeeee;}
+
+a:hover {
+text-decoration: none;}
+
+.foot p {
+color: #eeeeee;}
+
+
+h5 {
+color: white;}
+
+hr {
+background-color: #455a64;}
+
+.uolist {
+	list-style: none;
+}
+
+.uolist img {
+	max-width: 20px;
+	max-height: 20px;
+}
+
+.uolist li {
+	margin: 5px 0;
+}
+
+.about-box p {
+text-align: justify;}
+
+.logo {
+	position: fixed;
+	top: 4px;
+	left: 15px;
+	z-index: 100;
+	
+}
+
+.logo img {
+	height: 55px;
+	width: 100px;
+}
+
+.logo a {
+pointer: cursor;}
+
+
+li {
+	cursor: pointer;
+	}
+	
+	
+	.pic img {
+	height: 80px;
+	width: 80px;
+	}
+
+	.materialboxed {
+	display: inline;
+	}
+	
+	.desc {
+	padding: 0px 50px;
+	border-bottom:1px solid black;
+	}
+	
+	.desc .row {
+	margin-bottom: 0;}
+	
+	.desc .row1 {
+	margin-top: 8px;}
+	
+	.row1 p {
+	font-size: 16px;
+	margin: 0;}
+	
+	.col-xl-8, .col-md-8, .col-sm-8 {
+	padding: 0;}
+	
+	.col-xl-4, .col-md-4, .col-sm-4 {
+	padding: 0;}
+	
+	#margin {
+	margin-bottom: 10px;}
+	
